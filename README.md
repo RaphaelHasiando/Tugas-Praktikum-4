@@ -75,6 +75,6 @@
         print(f"| {i + 1}  | {Datat[i][0]} | {Datat[i][1]} |  {Datat[i][2]}  | {Datat[i][3]}  | {Datat[i][4]}  | {Datat[i][5]}  |")
       print("==============================================================")
 ![image](https://user-images.githubusercontent.com/61907877/143869842-ca116b9e-39a5-4e87-be8a-56c41a194c15.png)
-![Flowchartt](https://user-images.githubusercontent.com/61907877/143874151-656d1068-d6a2-440b-b7ba-67f129d711eb.png)
+![Flowchartt (1)](https://user-images.githubusercontent.com/61907877/143875776-f7beea12-2f33-43be-8e7a-81824195b469.png)
 
 
