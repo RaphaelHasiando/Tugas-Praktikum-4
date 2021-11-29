@@ -1,0 +1,37 @@
+Datat = []
+index = -1
+Data = "y"
+x = 0
+while x == 0:
+    if Data == 'y' or Data == 'Y':
+        index = index + 1
+        Datat.insert(index,[])
+
+        while True:
+            Nama = Datat[index].append(input("Nama : "))
+            Nim = Datat[index].append(input("NIM : "))
+
+            Tugas = int(input("Tugas : "))
+            Datat[index].append(Tugas)
+
+            UTS = int(input("UTS : "))
+            Datat[index].append(UTS)
+
+            UAS = int(input("UAS : "))
+            Datat[index].append(UAS)
+
+            akhir = Tugas * 0.3 + UTS * 0.35 + UAS * 0.35
+            Datat[index].append(akhir)
+            break
+    Data = input("Tambah Data? (Y/N) ")
+    if Data == 'y' or Data == 'Y':
+        x = 0
+    elif Data == 'n' or Data == 'N':
+        x = 1
+
+if x == 1:
+    print("==============================================================")
+    print("| No |  Nama   |    NIM    | Tugas | UTS | UAS | Akhir |")
+    for i in range(len(Datat)):
+        print(f"| {i + 1}  | {Datat[i][0]} | {Datat[i][1]} |  {Datat[i][2]}  | {Datat[i][3]}  | {Datat[i][4]}  | {Datat[i][5]}  |")
+    print("==============================================================")
